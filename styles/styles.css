@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#about {
+  opacity: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #31A0AF 0%, #31A0AF 70%, #b0e2e9 70%, #b0e2e9 100%);
+  background-repeat: no-repeat;
+}
+
+.maincontainer header {
+  padding: 30px 0 0 50px;
+  height: 100vh;
+}
+.maincontainer header nav {
+  letter-spacing: 1px;
+  color: #b0e2e9;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.maincontainer header nav h2 {
+  letter-spacing: 2px;
+}
+.maincontainer header nav ul {
+  gap: 73px;
+  display: flex;
+}
+.maincontainer header nav ul li:first-child {
+  list-style: none;
+}
+.maincontainer header nav ul li:last-child {
+  list-style: none;
+}
+.maincontainer header nav ul li:last-child > a {
+  color: #31A0AF;
+}
+.maincontainer header nav ul li {
+  list-style: none;
+}
+.maincontainer header nav ul li span {
+  color: #31A0AF;
+}
+.maincontainer header nav ul li a {
+  color: #b0e2e9;
+  text-decoration: none;
+}
+.maincontainer header .redes {
+  top: 30%;
+  right: 2%;
+  position: absolute;
+}
+.maincontainer header .redes div:nth-child(2),
+.maincontainer header .redes div:nth-child(4) {
+  border-radius: 50%;
+  background-color: #fff;
+}
+.maincontainer header .redes div:nth-child(2) i,
+.maincontainer header .redes div:nth-child(4) i {
+  font-size: 3vw;
+  padding: 12px;
+  color: #31A0AF;
+}
+.maincontainer header .redes div:nth-child(2) p,
+.maincontainer header .redes div:nth-child(4) p {
+  padding: 5px 15px 5px 15px;
+  position: absolute;
+  font-size: 1.6vw;
+  left: -133px;
+  background-color: white;
+  color: #31A0AF;
+  top: 62.75%;
+  transform: translateX(-40%);
+  display: none;
+  transition: all 500ms;
+}
+.maincontainer header .redes .barras {
+  width: 3px;
+  height: 45px;
+  background-color: #31A0AF;
+  margin: auto;
+}
+.maincontainer header .redes div:nth-child(2) p {
+  top: 20.09%;
+  padding: 5px 45px 5px 15px;
+}
+.maincontainer header .redes div:nth-child(2):hover > p,
+.maincontainer header .redes div:nth-child(4):hover > p {
+  display: block;
+  transform: translateX(0%);
+}
+.maincontainer h1 {
+  background-image: linear-gradient(to bottom, #b0e2e9 0%, #b0e2e9 37%, #31A0AF 37%, #31A0AF 100%);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Rollbox;
+  line-height: 1;
+  font-size: 7vw;
+  margin: 0;
+  text-align: center;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 350px;
+  left: 49.52%;
+}
+.maincontainer .main {
+  width: 42.1vw;
+  margin-top: 50px;
+}
+.maincontainer .main h2 {
+  font-size: 8vw;
+  letter-spacing: 8px;
+  color: #b0e2e9;
+  font-weight: 800;
+  display: inline-block;
+}
+.maincontainer .main h3 {
+  display: inline-block;
+  color: #b0e2e9;
+  font-weight: 100;
+  font-size: 2vw;
+}
+.maincontainer .main p {
+  color: #b0e2e9;
+  font-weight: 100;
+  font-size: 1.5vw;
+}
+.maincontainer .main label {
+  font-size: 2.5vw;
+  display: flex;
+  color: #31A0AF;
+  background-color: #fff;
+  position: relative;
+  top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.first {
+  position: relative;
+  margin: auto;
+  width: 94vw;
+  height: 100vh;
+  background-color: #fff;
+}
+.first .title {
+  padding: 50px;
+}
+.first .title h2 {
+  color: #31A0AF;
+  font-size: 4.5vw;
+  text-align: center;
+  font-family: Rollbox;
+}
+.first .title h2 span {
+  font-family: Rollbox;
+}
+.first .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+.first .content div {
+  position: relative;
+  background-color: #31A0AF;
+  width: 50%;
+  opacity: 1;
+}
+.first .content div p {
+  padding: 20px;
+  font-size: 2.5vw;
+  color: #b0e2e9;
+  text-align: center;
+}
+.first .content div::after {
+  content: "";
+  background-color: #b0e2e9;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  transform: rotate(5deg);
+}
+.first .content img {
+  height: 450px;
+}
+
+.goup {
+  background-color: #31A0AF;
+  position: sticky;
+  border-radius: 50%;
+  top: 92vh;
+  display: inline-block;
+  transform: translateX(100%);
+  z-index: 100;
+}
+.goup i {
+  text-align: center;
+  color: #fff;
+  padding: 8px 11px 8px 11px;
+  font-size: 2.5vw;
+}
+
+.second {
+  padding-top: 50px;
+  height: 100vh;
+  width: 94vw;
+  margin: auto;
+  background-color: #fff;
+}
+.second h2 {
+  color: #31A0AF;
+  font-size: 4.5vw;
+  text-align: center;
+  font-family: Rollbox;
+}
+.second .tarjeta {
+  padding: 20px;
+  padding-top: 30px;
+  width: 340px;
+  margin: auto;
+  margin-top: 70px;
+  height: 520px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.37);
+}
+.second .tarjeta img {
+  width: 300px;
+  transition: all 400ms;
+}
+.second .tarjeta div h3 {
+  text-align: center;
+  color: #31A0AF;
+}
+.second .tarjeta div p {
+  color: #31A0AF;
+  text-align: center;
+}
+.second .tarjeta:hover > img {
+  transform: translateY(-3%);
+}
+
+#btn {
+  background-color: #31A0AF;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
