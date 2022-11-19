@@ -1,4 +1,4 @@
-$font: Rollbox;
+$font:'Secular One', sans-serif;
 $font2: 'Oswald', sans-serif;
 $color: #b0e2e9;
 $color2: #31A0AF;
@@ -125,8 +125,8 @@ body {
     h1 {
         background-image: linear-gradient(to bottom,
                 $color 0%,
-                $color 37%,
-                $color2 37%,
+                $color 52%,
+                $color2 52%,
                 $color2 100%);
         background-size: cover;
         background-clip: text;
@@ -140,7 +140,7 @@ body {
         transform: rotate(-90deg);
         position: absolute;
         top: 350px;
-        left: 49.52vw;
+        left: 54.7%;
     }
 
     .main {

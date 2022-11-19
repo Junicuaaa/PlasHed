@@ -97,12 +97,12 @@ body {
   transform: translateX(0%);
 }
 .maincontainer h1 {
-  background-image: linear-gradient(to bottom, #b0e2e9 0%, #b0e2e9 37%, #31A0AF 37%, #31A0AF 100%);
+  background-image: linear-gradient(to bottom, #b0e2e9 0%, #b0e2e9 52%, #31A0AF 52%, #31A0AF 100%);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: Rollbox;
+  font-family: "Secular One", sans-serif;
   line-height: 1;
   font-size: 7vw;
   margin: 0;
@@ -110,7 +110,7 @@ body {
   transform: rotate(-90deg);
   position: absolute;
   top: 350px;
-  left: 49.52vw;
+  left: 54.7%;
 }
 .maincontainer .main {
   width: 42.1vw;
@@ -159,10 +159,10 @@ body {
   color: #31A0AF;
   font-size: 4.5vw;
   text-align: center;
-  font-family: Rollbox;
+  font-family: "Secular One", sans-serif;
 }
 .first .title h2 span {
-  font-family: Rollbox;
+  font-family: "Secular One", sans-serif;
 }
 .first .content {
   display: flex;
@@ -224,7 +224,7 @@ body {
   color: #31A0AF;
   font-size: 4.5vw;
   text-align: center;
-  font-family: Rollbox;
+  font-family: "Secular One", sans-serif;
 }
 .second .tarjeta {
   padding: 20px;
